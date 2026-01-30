@@ -1301,6 +1301,20 @@ void UUI_DisplaySettings2_C::SwitchDLSSModes(int32 NewMode)
 }
 
 
+// Function UI_DisplaySettings2.UI_DisplaySettings2_C.SwitchReflexMode
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void UUI_DisplaySettings2_C::SwitchReflexMode()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("UI_DisplaySettings2_C", "SwitchReflexMode");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
 // Function UI_DisplaySettings2.UI_DisplaySettings2_C.Tick
 // (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:

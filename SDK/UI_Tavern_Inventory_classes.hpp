@@ -10,15 +10,15 @@
 
 #include "Basic.hpp"
 
+#include "SheathType_Enum_structs.hpp"
 #include "Engine_structs.hpp"
 #include "Enum_Sides_RightLeft_structs.hpp"
-#include "UMG_structs.hpp"
-#include "UMG_classes.hpp"
 #include "ArmorSlots_Enum_structs.hpp"
 #include "Str_Passport_Armor1_structs.hpp"
+#include "UMG_structs.hpp"
+#include "UMG_classes.hpp"
 #include "Enum_Ranks_structs.hpp"
 #include "SheathSlots_Enum_structs.hpp"
-#include "SheathType_Enum_structs.hpp"
 
 
 namespace SDK
@@ -106,7 +106,7 @@ public:
 	uint8                                         Pad_529[0x7];                                      // 0x0529(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
 	TMap<EArmorSlots_Enum, struct FStr_Passport_Armor1> Armor_Slots;                                 // 0x0530(0x0050)(Edit, BlueprintVisible, DisableEditOnInstance)
 	TMulticastInlineDelegate<void()>              BBBB;                                              // 0x0580(0x0010)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable)
-	class BP_FreeCamera::ABP_FreeCamera_C*        My_Controller;                                     // 0x0590(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
+	class BP_FreeCamera_0::ABP_FreeCamera_C*      My_Controller;                                     // 0x0590(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	class AActor*                                 Spawned_Item;                                      // 0x0598(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	class UObject*                                Item;                                              // 0x05A0(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	bool                                          Double_Clicked;                                    // 0x05A8(0x0001)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash)

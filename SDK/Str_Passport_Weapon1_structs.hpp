@@ -11,8 +11,8 @@
 #include "Basic.hpp"
 
 #include "CoreUObject_structs.hpp"
-#include "Enum_Ranks_structs.hpp"
 #include "Enum_MaterialLayer_structs.hpp"
+#include "Enum_Ranks_structs.hpp"
 
 
 namespace SDK

@@ -51,14 +51,14 @@ enum class EMetaSoundOutputAudioFormat : uint8
 	EMetaSoundOutputAudioFormat_MAX          = 6,
 };
 
-// ScriptStruct MetasoundEngine.MetaSoundAssetDirectory
-// 0x0010 (0x0010 - 0x0000)
-struct FMetaSoundAssetDirectory final
+// ScriptStruct MetasoundEngine.DefaultMetaSoundAssetAutoUpdateSettings
+// 0x0020 (0x0020 - 0x0000)
+struct FDefaultMetaSoundAssetAutoUpdateSettings final
 {
 public:
-	struct FDirectoryPath                         Directory;                                         // 0x0000(0x0010)(Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FSoftObjectPath                        Metasound;                                         // 0x0000(0x0020)(Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
-DUMPER7_ASSERTS_FMetaSoundAssetDirectory;
+DUMPER7_ASSERTS_FDefaultMetaSoundAssetAutoUpdateSettings;
 
 // ScriptStruct MetasoundEngine.MetaSoundOutput
 // 0x0008 (0x0010 - 0x0008)
@@ -69,15 +69,6 @@ public:
 };
 DUMPER7_ASSERTS_FMetaSoundOutput;
 
-// ScriptStruct MetasoundEngine.DefaultMetaSoundAssetAutoUpdateSettings
-// 0x0020 (0x0020 - 0x0000)
-struct FDefaultMetaSoundAssetAutoUpdateSettings final
-{
-public:
-	struct FSoftObjectPath                        Metasound;                                         // 0x0000(0x0020)(Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-DUMPER7_ASSERTS_FDefaultMetaSoundAssetAutoUpdateSettings;
-
 // ScriptStruct MetasoundEngine.MetaSoundQualitySettings
 // 0x0008 (0x0008 - 0x0000)
 struct FMetaSoundQualitySettings final
@@ -87,6 +78,15 @@ public:
 	struct FPerPlatformFloat                      BlockRate;                                         // 0x0004(0x0004)(Edit, Config, NoDestructor, NativeAccessSpecifierPublic)
 };
 DUMPER7_ASSERTS_FMetaSoundQualitySettings;
+
+// ScriptStruct MetasoundEngine.MetaSoundAssetDirectory
+// 0x0010 (0x0010 - 0x0000)
+struct FMetaSoundAssetDirectory final
+{
+public:
+	struct FDirectoryPath                         Directory;                                         // 0x0000(0x0010)(Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+DUMPER7_ASSERTS_FMetaSoundAssetDirectory;
 
 // ScriptStruct MetasoundEngine.MetaSoundAsyncAssetDependencies
 // 0x0030 (0x0030 - 0x0000)

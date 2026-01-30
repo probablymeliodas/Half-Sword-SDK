@@ -15,15 +15,16 @@ namespace SDK
 {
 
 // UserDefinedEnum ENUM_Languages.ENUM_Languages
-// NumValues: 0x0006
+// NumValues: 0x0007
 enum class ENUM_Languages : uint8
 {
 	NewEnumerator0                           = 0,
-	NewEnumerator1                           = 1,
-	NewEnumerator3                           = 2,
-	NewEnumerator4                           = 3,
-	NewEnumerator5                           = 4,
-	ENUM_MAX                                 = 5,
+	NewEnumerator10                          = 1,
+	NewEnumerator1                           = 2,
+	NewEnumerator3                           = 3,
+	NewEnumerator4                           = 4,
+	NewEnumerator5                           = 5,
+	ENUM_MAX                                 = 6,
 };
 
 }

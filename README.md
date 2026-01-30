@@ -4,7 +4,7 @@ An auto-generated C++ SDK for Half Sword, designed to make modding and developme
 
 ## Current Version
 
-**5.4.4-2329+++Halfsword+Main-HalfswordUE5**
+**5.4.4-2331+++Halfsword+Main-HalfswordUE5**
 
 ## Installation
 

@@ -10,8 +10,8 @@
 
 #include "Basic.hpp"
 
-#include "ModularWeaponBP_classes.hpp"
 #include "Engine_structs.hpp"
+#include "ModularWeaponBP_classes.hpp"
 
 
 namespace SDK
@@ -26,8 +26,8 @@ public:
 
 public:
 	void ExecuteUbergraph_ModularWeaponBP_Customizable(int32 EntryPoint);
-	void Refresh_Weapon();
 	void ReceiveTick(float DeltaSeconds);
+	void Refresh_Weapon();
 
 public:
 	static class UClass* StaticClass()

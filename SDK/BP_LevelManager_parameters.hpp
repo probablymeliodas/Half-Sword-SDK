@@ -11,9 +11,9 @@
 #include "Basic.hpp"
 
 #include "Enum_CombatEvent_Modes_structs.hpp"
+#include "CoreUObject_structs.hpp"
 #include "Enum_DayTime_structs.hpp"
 #include "Enum_CombatEvent_LoseConditions_structs.hpp"
-#include "CoreUObject_structs.hpp"
 #include "Str_Passport_Weapon1_structs.hpp"
 
 
